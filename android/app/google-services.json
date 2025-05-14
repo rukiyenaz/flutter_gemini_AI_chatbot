@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640448163701",
+    "project_id": "doctor-asistan",
+    "storage_bucket": "doctor-asistan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640448163701:android:03d2e0d7f251f7fa656d3c",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt2B7w7qQQ3Wz87zj_Ac7Dl_nR9WhP8_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
