@@ -49,5 +49,33 @@ lib/firebase_options.dart
 
 firebase.json
 
-# API key içeren dosyalar
+# Flutter
+flutter_export_environment.sh
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Podfile.lock
+
+# Android
+.android/
+app/build/
+
+# Firebase
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Others
+*.iml
+*.lock
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Environment & Secrets
 .env
+.env.*
