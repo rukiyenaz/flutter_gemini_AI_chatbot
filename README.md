@@ -1,9 +1,9 @@
 Flutter Gemini AI Chatbot
 This app is a doctor chatbot designed to support your health journey. Got a question about your symptoms or feeling unsure about something? Instead of rushing to the clinic, get instant insights and helpful information right from your phone. This intelligent assistant is here to guide you—anytime, anywhere.
 
-![login page](flutter_gemini_AI_chatbot/assets/login_page.png)
-![sign up page](flutter_gemini_AI_chatbot/assets/sign_up_page.png)
-![chat page](flutter_gemini_AI_chatbot/assets/chat_page.png)
+![login page](assets/login_page.png)
+![sign up page](assets/sign_up_page.png)
+![chat page](assets/chat_page.png)
 
 🔐 Authentication
 This project uses Firebase Authentication to handle user sign-in and sign-up processes securely and efficiently. It supports multiple authentication methods such as:
