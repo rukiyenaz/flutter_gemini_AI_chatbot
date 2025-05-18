@@ -6,7 +6,7 @@ class MessageAiRepo {
   MessageAiRepo({required this.aiService});
 
   Future<Message?> sendToAI(String prompt) async {
-    return await aiService.getAiMessages(prompt);
+    return await aiService.getGeminiResponse(prompt);
   }
 
 }

@@ -78,4 +78,4 @@ ios/Runner/GoogleService-Info.plist
 
 # Environment & Secrets
 .env
-.env.*
+
