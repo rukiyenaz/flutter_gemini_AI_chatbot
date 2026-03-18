@@ -1,9 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter_application_1/features/auth/domain/entities/app_user.dart';
 import 'package:flutter_application_1/features/auth/domain/repositories/auth_repo.dart';
 
 class FirebaseAuthRepo implements AuthRepository{
-  FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
+  final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
 
 
   @override
@@ -41,7 +42,7 @@ class FirebaseAuthRepo implements AuthRepository{
       return user;
     }
     catch(e){
-      print(e.toString());
+      debugPrint(e.toString());
       return null;
     }
     
@@ -53,7 +54,7 @@ class FirebaseAuthRepo implements AuthRepository{
       await _firebaseAuth.signOut();
     }
     catch(e){
-      print(e.toString());
+      debugPrint(e.toString());
     }
   }
 
@@ -71,7 +72,7 @@ class FirebaseAuthRepo implements AuthRepository{
       return user;
     }
     catch(e){
-      print(e.toString());
+      debugPrint(e.toString());
       return null;
     }
   }

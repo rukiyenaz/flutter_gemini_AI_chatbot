@@ -37,6 +37,7 @@ dependencies:
   google_generative_ai: ^0.4.7
   flutter_dotenv: ^5.2.1
   http: 
+  uuid: ^4.0.0 
   
 
   
@@ -70,6 +71,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - .env
     - assets/login_image.png
 
 
